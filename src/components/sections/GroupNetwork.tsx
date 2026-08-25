@@ -17,7 +17,7 @@ export function GroupNetwork() {
       action: net("alNakhla.action"),
       href: "https://alnakhlaxc.ly/",
       external: true,
-      image: "/images/al-nakhla.jpg",
+      image: "/images/currency-exchange.jpg",
       imageAlt: "Al Nakhla Financial & Currency Exchange",
     },
     {
