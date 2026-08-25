@@ -85,20 +85,24 @@ html[dir="rtl"] body {
   color: var(--foreground);
 }
 
-/* Smooth, Calm Marquee Animation */
+/* Silky Smooth, Calm Hardware-Accelerated Marquee Animation */
 @keyframes marquee {
-  from {
-    transform: translateX(0);
+  0% {
+    transform: translate3d(0, 0, 0);
   }
-  to {
-    transform: translateX(-50%);
+  100% {
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 .animate-marquee {
   display: flex;
   width: max-content;
-  animation: marquee 52s linear infinite;
+  animation: marquee 85s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translate3d(0, 0, 0);
 }
 
 .animate-marquee:hover {

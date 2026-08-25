@@ -9,7 +9,7 @@ export function PartnerMarquee() {
   const marqueeItems = [...partners, ...partners, ...partners, ...partners];
 
   return (
-    <section className="bg-[#090d16] text-white py-20 md:py-28 relative overflow-hidden" id="partners">
+    <section className="bg-gradient-to-b from-[#142d4c] via-[#0f243f] to-[#090d16] text-white py-20 md:py-28 relative overflow-hidden" id="partners">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-14 md:mb-16">
@@ -19,19 +19,14 @@ export function PartnerMarquee() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white">
               {t("partnersTitle")}
             </h2>
-            <p className="mt-3 text-sm sm:text-base text-white/70">
+            <p className="mt-3 text-sm sm:text-base text-white/80">
               {t("partnersSubtitle")}
             </p>
           </div>
         </FadeIn>
 
-        {/* Continuous Calm Infinite Carousel with Large Floating Logos and Generous Spacing */}
-        <div className="relative overflow-hidden py-6">
-          {/* Deep Dark Edge Fade Scrims */}
-          <div className="pointer-events-none absolute inset-y-0 start-0 z-10 w-28 sm:w-44 bg-gradient-to-r from-[#090d16] to-transparent" />
-          <div className="pointer-events-none absolute inset-y-0 end-0 z-10 w-28 sm:w-44 bg-gradient-to-l from-[#090d16] to-transparent" />
-
-          {/* Large Floating Logos Track */}
+        {/* Clean Infinite Seamless Carousel without Artificial Side Masks */}
+        <div className="relative overflow-hidden py-4">
           <div className="animate-marquee items-center gap-16 sm:gap-24 md:gap-32 px-8">
             {marqueeItems.map((p, i) => (
               <div
