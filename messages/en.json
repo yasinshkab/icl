@@ -26,31 +26,31 @@
       {
         "label": "Transportation Solutions",
         "description": "Executive private aviation & bespoke jet charter services.",
-        "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=1920&q=85",
         "href": "/services/transportation"
       },
       {
         "label": "Professional Services",
         "description": "Background checks, verification, talent acquisition & operational support.",
-        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1920&q=85",
         "href": "/services/professional"
       },
       {
         "label": "Hospitality Services",
         "description": "Oyster Guest House — luxury executive residence in Tripoli.",
-        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1920&q=85",
         "href": "/services/hospitality"
       },
       {
         "label": "Business Development",
         "description": "Digital marketing, web engineering, SEO & strategic branding.",
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=85",
         "href": "/services/business-development"
       },
       {
         "label": "Logistics Services",
         "description": "Global container shipping, freight forwarding & supply chain excellence.",
-        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1920&q=85",
         "href": "/services/logistics"
       }
     ],
@@ -107,10 +107,38 @@
       "recruitmentTitle": "Executive Staff Recruitment",
       "recruitmentDesc": "Talent sourcing and specialized staffing tailored to specialized corporate roles across Libya and the region.",
       "services": [
-        { "title": "Corporate Mobility & Logistics", "items": ["Executive apartment rentals", "Corporate vehicle fleet", "High-grade video conference gear"] },
-        { "title": "Telecommunications", "items": ["Corporate SIM provisioning", "Satellite communications", "Dedicated high-speed connectivity"] },
-        { "title": "Official Documentation", "items": ["Long-term residency & visas", "Commercial drivers' permits", "Ministry & trade registrations"] },
-        { "title": "Liaison & Protocol", "items": ["Bilateral meeting facilitation", "Inter-ministerial liaison", "Executive delegation management"] }
+        {
+          "title": "Corporate Mobility & Logistics",
+          "items": [
+            "Executive apartment rentals",
+            "Corporate vehicle fleet",
+            "High-grade video conference gear"
+          ]
+        },
+        {
+          "title": "Telecommunications",
+          "items": [
+            "Corporate SIM provisioning",
+            "Satellite communications",
+            "Dedicated high-speed connectivity"
+          ]
+        },
+        {
+          "title": "Official Documentation",
+          "items": [
+            "Long-term residency & visas",
+            "Commercial drivers' permits",
+            "Ministry & trade registrations"
+          ]
+        },
+        {
+          "title": "Liaison & Protocol",
+          "items": [
+            "Bilateral meeting facilitation",
+            "Inter-ministerial liaison",
+            "Executive delegation management"
+          ]
+        }
       ]
     },
     "hospitality": {
@@ -122,19 +150,37 @@
       "amenities": {
         "equipped": {
           "title": "Fully Equipped Living",
-          "items": ["Designer furnishings", "Complete culinary kitchen & coffee bar", "Rooftop fitness gym & terrace", "High-speed CHIT Wi-Fi", "Dedicated backup power generator"]
+          "items": [
+            "Designer furnishings",
+            "Complete culinary kitchen & coffee bar",
+            "Rooftop fitness gym & terrace",
+            "High-speed CHIT Wi-Fi",
+            "Dedicated backup power generator"
+          ]
         },
         "hospitality": {
           "title": "Bespoke Concierge",
-          "items": ["Gourmet breakfast & lunch catering", "Daily housekeeping & laundry", "Private airport pickup & transfers"]
+          "items": [
+            "Gourmet breakfast & lunch catering",
+            "Daily housekeeping & laundry",
+            "Private airport pickup & transfers"
+          ]
         },
         "security": {
           "title": "24/7 Security & Safety",
-          "items": ["Round-the-clock security personnel", "CCTV monitoring system", "Dedicated emergency exits", "Routine facility maintenance"]
+          "items": [
+            "Round-the-clock security personnel",
+            "CCTV monitoring system",
+            "Dedicated emergency exits",
+            "Routine facility maintenance"
+          ]
         },
         "parking": {
           "title": "Secure Parking",
-          "items": ["Gated private parking for up to 4 vehicles", "Valet & driver accommodations"]
+          "items": [
+            "Gated private parking for up to 4 vehicles",
+            "Valet & driver accommodations"
+          ]
         }
       }
     },
@@ -143,12 +189,30 @@
       "description": "Strategic market entry, web design, software development, and digital marketing.",
       "body": "Leveraging extensive tech industry experience across European, American, and Asian markets to help your brand establish and expand its regional footprint.",
       "offerings": {
-        "webDesign": { "title": "Web & Software Design", "description": "High-performance websites and digital portals engineered for engagement and conversion." },
-        "seo": { "title": "Search Engine Optimization", "description": "Data-driven SEO strategies to elevate corporate search visibility and organic reach." },
-        "ppc": { "title": "PPC & Performance Ads", "description": "Targeted marketing campaigns maximizing ROI and generating qualified enterprise leads." },
-        "consulting": { "title": "Strategic Marketing Consulting", "description": "Market entry analysis, feasibility studies, and actionable brand advisory." },
-        "onlineMarketing": { "title": "Digital Growth Solutions", "description": "Full-spectrum digital marketing campaigns tailored to B2B and consumer audiences." },
-        "branding": { "title": "Brand Identity & Design", "description": "Distinct corporate identities, brand guidelines, and visual storytelling." }
+        "webDesign": {
+          "title": "Web & Software Design",
+          "description": "High-performance websites and digital portals engineered for engagement and conversion."
+        },
+        "seo": {
+          "title": "Search Engine Optimization",
+          "description": "Data-driven SEO strategies to elevate corporate search visibility and organic reach."
+        },
+        "ppc": {
+          "title": "PPC & Performance Ads",
+          "description": "Targeted marketing campaigns maximizing ROI and generating qualified enterprise leads."
+        },
+        "consulting": {
+          "title": "Strategic Marketing Consulting",
+          "description": "Market entry analysis, feasibility studies, and actionable brand advisory."
+        },
+        "onlineMarketing": {
+          "title": "Digital Growth Solutions",
+          "description": "Full-spectrum digital marketing campaigns tailored to B2B and consumer audiences."
+        },
+        "branding": {
+          "title": "Brand Identity & Design",
+          "description": "Distinct corporate identities, brand guidelines, and visual storytelling."
+        }
       }
     },
     "logistics": {
@@ -166,15 +230,36 @@
       "jetCtaDesc": "Experience effortless private jet travel with complete operational discretion, dedicated flight advisors, and superior onboard hospitality.",
       "whatMakesSpecial": "What Sets ICL Aviation Apart",
       "features": {
-        "service": { "title": "Elevated Flight Service", "description": "Dedicated flight advisors and experienced aircrew ensuring exceptional service on every flight." },
-        "flexibility": { "title": "Flexible Charter Options", "description": "Charter full aircraft or optimize routes without the burden of whole aircraft ownership." },
-        "peace": { "title": "Discretion & Security", "description": "Highest aviation safety certifications, rigorous sanitation protocols, and total privacy." },
-        "convenience": { "title": "Seamless Coordination", "description": "Flexible departure schedules, global routing, and effortless ground transport connections." }
+        "service": {
+          "title": "Elevated Flight Service",
+          "description": "Dedicated flight advisors and experienced aircrew ensuring exceptional service on every flight."
+        },
+        "flexibility": {
+          "title": "Flexible Charter Options",
+          "description": "Charter full aircraft or optimize routes without the burden of whole aircraft ownership."
+        },
+        "peace": {
+          "title": "Discretion & Security",
+          "description": "Highest aviation safety certifications, rigorous sanitation protocols, and total privacy."
+        },
+        "convenience": {
+          "title": "Seamless Coordination",
+          "description": "Flexible departure schedules, global routing, and effortless ground transport connections."
+        }
       },
       "special": {
-        "health": { "title": "Rigorous Safety", "description": "Stringent safety audits, accredited pilots, and immaculate maintenance." },
-        "experience": { "title": "The ICL Flight Standard", "description": "Unrivaled executive hospitality from departure lounge to final destination." },
-        "value": { "title": "Transparent Value", "description": "Straightforward charter pricing with no hidden operational fees." }
+        "health": {
+          "title": "Rigorous Safety",
+          "description": "Stringent safety audits, accredited pilots, and immaculate maintenance."
+        },
+        "experience": {
+          "title": "The ICL Flight Standard",
+          "description": "Unrivaled executive hospitality from departure lounge to final destination."
+        },
+        "value": {
+          "title": "Transparent Value",
+          "description": "Straightforward charter pricing with no hidden operational fees."
+        }
       }
     }
   },
