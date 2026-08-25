@@ -32,7 +32,7 @@ export default async function ProfessionalServicesPage({
         <div className="overflow-hidden rounded-2xl bg-[#142d4c] text-white shadow-xl grid md:grid-cols-12">
           <div className="relative h-64 md:h-auto md:col-span-5 hidden md:block">
             <Image
-              src="/images/Asset-24.webp"
+              src="/images/Development.webp"
               alt="Background Checks"
               fill
               className="object-cover opacity-80 mix-blend-luminosity"
