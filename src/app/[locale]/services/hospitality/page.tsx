@@ -28,7 +28,7 @@ export default async function HospitalityPage({
         <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-md grid md:grid-cols-2">
           <div className="relative h-72 md:h-auto">
             <Image
-              src="/images/Oyster.webp"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Oyster.webp`}
               alt="Oyster Guest House"
               fill
               className="object-cover"

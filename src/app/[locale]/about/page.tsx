@@ -19,7 +19,7 @@ export default async function AboutPage({
       <section className="relative h-[440px] sm:h-[500px] md:h-[540px] w-full flex items-center justify-center overflow-hidden">
         {/* Background Corporate Image */}
         <Image
-          src="/images/AboutUs.webp"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/AboutUs.webp`}
           alt="About ICL Group"
           fill
           priority

@@ -67,7 +67,7 @@ export default async function TransportationPage({
           </div>
           <div className="relative h-64 md:h-auto md:col-span-5 hidden md:block">
             <Image
-              src="/images/Asset-25.webp"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Asset-25.webp`}
               alt="Private Jet Charter"
               fill
               className="object-cover opacity-90 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"

@@ -12,43 +12,43 @@ export function GroupNetwork() {
     {
       id: "al-nakhla",
       title: net("alNakhla.title"),
-      eyebrow: locale === "ar" ? "الخدمات المالية والصرافة" : "FINANCIAL & EXCHANGE SERVICES",
+      eyebrow: locale === "ar" ? "Ø§Ù„Ø®Ø¯Ù…Ø§Øª Ø§Ù„Ù…Ø§Ù„ÙŠØ© ÙˆØ§Ù„ØµØ±Ø§ÙØ©" : "FINANCIAL & EXCHANGE SERVICES",
       description: net("alNakhla.description"),
       action: net("alNakhla.action"),
       href: "https://alnakhlaxc.ly/",
       external: true,
-      image: "/images/al-nakhla-exchange.jpg",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/al-nakhla-exchange.jpg`,
       imageAlt: "Al Nakhla Financial & Currency Exchange",
     },
     {
       id: "oyster",
       title: net("oyster.title"),
-      eyebrow: locale === "ar" ? "الضيافة الفندقية الفاخرة" : "EXECUTIVE HOSPITALITY & RESIDENCES",
+      eyebrow: locale === "ar" ? "Ø§Ù„Ø¶ÙŠØ§ÙØ© Ø§Ù„ÙÙ†Ø¯Ù‚ÙŠØ© Ø§Ù„ÙØ§Ø®Ø±Ø©" : "EXECUTIVE HOSPITALITY & RESIDENCES",
       description: net("oyster.description"),
       action: net("oyster.action"),
       href: "/services/hospitality",
-      image: "/images/Oyster.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Oyster.webp`,
       imageAlt: "Oyster Guest House Luxury Suites",
     },
     {
       id: "logistics",
       title: net("logisticsAviation.title"),
-      eyebrow: locale === "ar" ? "الشحن الدولي والطيران الخاص" : "GLOBAL FREIGHT & PRIVATE AVIATION",
+      eyebrow: locale === "ar" ? "Ø§Ù„Ø´Ø­Ù† Ø§Ù„Ø¯ÙˆÙ„ÙŠ ÙˆØ§Ù„Ø·ÙŠØ±Ø§Ù† Ø§Ù„Ø®Ø§Øµ" : "GLOBAL FREIGHT & PRIVATE AVIATION",
       description: net("logisticsAviation.description"),
       action: net("logisticsAviation.action"),
       href: "/services/logistics",
-      image: "/images/Side.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Side.webp`,
       imageAlt: "ICL Logistics & Freight Operations",
     },
     {
       id: "contracting",
       title: net("contracting.title"),
-      eyebrow: locale === "ar" ? "المقاولات العامة والبنية التحتية" : "INFRASTRUCTURE & GENERAL CONTRACTING",
+      eyebrow: locale === "ar" ? "Ø§Ù„Ù…Ù‚Ø§ÙˆÙ„Ø§Øª Ø§Ù„Ø¹Ø§Ù…Ø© ÙˆØ§Ù„Ø¨Ù†ÙŠØ© Ø§Ù„ØªØ­ØªÙŠØ©" : "INFRASTRUCTURE & GENERAL CONTRACTING",
       description: net("contracting.description"),
       action: net("contracting.action"),
       href: "#",
       disabled: true,
-      image: "/images/Development.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Development.webp`,
       imageAlt: "ICL General Contracting & Infrastructure",
     },
   ];
@@ -60,7 +60,7 @@ export function GroupNetwork() {
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-2">
-              {locale === "ar" ? "منظومة المجموعة" : "Holding Ecosystem & Subsidiaries"}
+              {locale === "ar" ? "Ù…Ù†Ø¸ÙˆÙ…Ø© Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©" : "Holding Ecosystem & Subsidiaries"}
             </p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground">
               {t("networkTitle")}
@@ -122,7 +122,7 @@ export function GroupNetwork() {
                           className="inline-flex items-center gap-2 rounded-md bg-[#090d16] text-white hover:bg-accent hover:text-[#090d16] px-6 py-2.5 text-xs font-semibold uppercase tracking-wider transition-all press-scale shadow-xs"
                         >
                           <span>{item.action}</span>
-                          <span>↗</span>
+                          <span>â†—</span>
                         </a>
                       ) : item.disabled ? (
                         <span className="inline-block rounded-md bg-surface-elevated text-muted px-5 py-2 text-xs font-semibold uppercase tracking-wider border border-border">
@@ -134,7 +134,7 @@ export function GroupNetwork() {
                           className="inline-flex items-center gap-2 rounded-md bg-[#090d16] text-white hover:bg-accent hover:text-[#090d16] px-6 py-2.5 text-xs font-semibold uppercase tracking-wider transition-all press-scale shadow-xs"
                         >
                           <span>{item.action}</span>
-                          <span>→</span>
+                          <span>â†’</span>
                         </Link>
                       )}
                     </div>

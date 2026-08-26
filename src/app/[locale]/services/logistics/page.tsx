@@ -5,9 +5,9 @@ import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 
 const serviceImages = [
-  { src: "/images/3_1.webp", label: "Container Shipping & Port Operations" },
-  { src: "/images/2_1.webp", label: "Freight Forwarding & Customs Clearance" },
-  { src: "/images/1_1.webp", label: "Multimodal Ground & Air Cargo" },
+  { src: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/3_1.webp`, label: "Container Shipping & Port Operations" },
+  { src: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/2_1.webp`, label: "Freight Forwarding & Customs Clearance" },
+  { src: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/1_1.webp`, label: "Multimodal Ground & Air Cargo" },
 ];
 
 export default async function LogisticsServicesPage({
@@ -67,7 +67,7 @@ export default async function LogisticsServicesPage({
           </div>
           <div className="relative h-64 md:h-auto md:col-span-5 hidden md:block">
             <Image
-              src="/images/Side.webp"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Side.webp`}
               alt="Global Freight Shipping"
               fill
               className="object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"

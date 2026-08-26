@@ -11,32 +11,32 @@ export function ServiceCards() {
   const pillars = [
     {
       num: "01",
-      title: locale === "ar" ? "الخدمات المهنية وإدارة المخاطر" : "Professional & Risk Management",
+      title: locale === "ar" ? "Ø§Ù„Ø®Ø¯Ù…Ø§Øª Ø§Ù„Ù…Ù‡Ù†ÙŠØ© ÙˆØ¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø®Ø§Ø·Ø±" : "Professional & Risk Management",
       description:
         locale === "ar"
-          ? "حلول متكاملة لإدارة المخاطر، وفحص السجلات والتحقق من الخلفيات، وفحص الموردين واستقطاب الكفاءات المتخصصة لدعم الأعمال."
+          ? "Ø­Ù„ÙˆÙ„ Ù…ØªÙƒØ§Ù…Ù„Ø© Ù„Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø®Ø§Ø·Ø±ØŒ ÙˆÙØ­Øµ Ø§Ù„Ø³Ø¬Ù„Ø§Øª ÙˆØ§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø§Ù„Ø®Ù„ÙÙŠØ§ØªØŒ ÙˆÙØ­Øµ Ø§Ù„Ù…ÙˆØ±Ø¯ÙŠÙ† ÙˆØ§Ø³ØªÙ‚Ø·Ø§Ø¨ Ø§Ù„ÙƒÙØ§Ø¡Ø§Øª Ø§Ù„Ù…ØªØ®ØµØµØ© Ù„Ø¯Ø¹Ù… Ø§Ù„Ø£Ø¹Ù…Ø§Ù„."
           : "Comprehensive risk mitigation, executive background checks, vendor due diligence, and specialized staffing solutions.",
-      image: "/images/Asset-23.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Asset-23.webp`,
       href: "/services/professional",
     },
     {
       num: "02",
-      title: locale === "ar" ? "الإقامة الفندقية ومبيت Oyster" : "Oyster Executive Residences",
+      title: locale === "ar" ? "Ø§Ù„Ø¥Ù‚Ø§Ù…Ø© Ø§Ù„ÙÙ†Ø¯Ù‚ÙŠØ© ÙˆÙ…Ø¨ÙŠØª Oyster" : "Oyster Executive Residences",
       description:
         locale === "ar"
-          ? "شقق فندقية راقية (Pearl & Sadafa) في منطقة بوسنة بطرابلس مع تموين طازج، كونسيرج يومي، صالة لياقة وأمن متواصل."
+          ? "Ø´Ù‚Ù‚ ÙÙ†Ø¯Ù‚ÙŠØ© Ø±Ø§Ù‚ÙŠØ© (Pearl & Sadafa) ÙÙŠ Ù…Ù†Ø·Ù‚Ø© Ø¨ÙˆØ³Ù†Ø© Ø¨Ø·Ø±Ø§Ø¨Ù„Ø³ Ù…Ø¹ ØªÙ…ÙˆÙŠÙ† Ø·Ø§Ø²Ø¬ØŒ ÙƒÙˆÙ†Ø³ÙŠØ±Ø¬ ÙŠÙˆÙ…ÙŠØŒ ØµØ§Ù„Ø© Ù„ÙŠØ§Ù‚Ø© ÙˆØ£Ù…Ù† Ù…ØªÙˆØ§ØµÙ„."
           : "Serviced executive suites in Bouseta, Tripoli, with gourmet catering, daily concierge, scenic rooftop fitness, and 24/7 security.",
-      image: "/images/Oyster.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Oyster.webp`,
       href: "/services/hospitality",
     },
     {
       num: "03",
-      title: locale === "ar" ? "اللوجستيات والشحن والطيران الخاص" : "Global Logistics & Private Aviation",
+      title: locale === "ar" ? "Ø§Ù„Ù„ÙˆØ¬Ø³ØªÙŠØ§Øª ÙˆØ§Ù„Ø´Ø­Ù† ÙˆØ§Ù„Ø·ÙŠØ±Ø§Ù† Ø§Ù„Ø®Ø§Øµ" : "Global Logistics & Private Aviation",
       description:
         locale === "ar"
-          ? "سلاسل إمداد وشحن بحري وجوي متكامل، رحلات طيران خاصة لكبار الشخصيات، وتطوير البنية التحتية الرقمية."
+          ? "Ø³Ù„Ø§Ø³Ù„ Ø¥Ù…Ø¯Ø§Ø¯ ÙˆØ´Ø­Ù† Ø¨Ø­Ø±ÙŠ ÙˆØ¬ÙˆÙŠ Ù…ØªÙƒØ§Ù…Ù„ØŒ Ø±Ø­Ù„Ø§Øª Ø·ÙŠØ±Ø§Ù† Ø®Ø§ØµØ© Ù„ÙƒØ¨Ø§Ø± Ø§Ù„Ø´Ø®ØµÙŠØ§ØªØŒ ÙˆØªØ·ÙˆÙŠØ± Ø§Ù„Ø¨Ù†ÙŠØ© Ø§Ù„ØªØ­ØªÙŠØ© Ø§Ù„Ø±Ù‚Ù…ÙŠØ©."
           : "Multimodal ocean and air freight forwarding, bespoke private jet charters, and digital business acceleration.",
-      image: "/images/Asset-25.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Asset-25.webp`,
       href: "/services/logistics",
     },
   ];
@@ -49,18 +49,18 @@ export function ServiceCards() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-4">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-2">
-                {locale === "ar" ? "القطاعات والحلول" : "Solutions & Capabilities"}
+                {locale === "ar" ? "Ø§Ù„Ù‚Ø·Ø§Ø¹Ø§Øª ÙˆØ§Ù„Ø­Ù„ÙˆÙ„" : "Solutions & Capabilities"}
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground">
-                {locale === "ar" ? "ما نقوم به" : "What We Do"}
+                {locale === "ar" ? "Ù…Ø§ Ù†Ù‚ÙˆÙ… Ø¨Ù‡" : "What We Do"}
               </h2>
             </div>
             <Link
               href="/services/professional"
               className="text-xs font-semibold uppercase tracking-wider text-accent hover:text-accent-dark transition-colors flex items-center gap-1.5"
             >
-              <span>{locale === "ar" ? "عرض كافة القطاعات" : "Explore All Sectors"}</span>
-              <span>↗</span>
+              <span>{locale === "ar" ? "Ø¹Ø±Ø¶ ÙƒØ§ÙØ© Ø§Ù„Ù‚Ø·Ø§Ø¹Ø§Øª" : "Explore All Sectors"}</span>
+              <span>â†—</span>
             </Link>
           </div>
         </FadeIn>
@@ -107,9 +107,9 @@ export function ServiceCards() {
 
                   {/* Action Link Strip */}
                   <div className="pt-4 border-t border-white/15 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-accent group-hover:text-accent-light transition-colors">
-                    <span>{locale === "ar" ? "استكشف القطاع" : "Explore Division"}</span>
+                    <span>{locale === "ar" ? "Ø§Ø³ØªÙƒØ´Ù Ø§Ù„Ù‚Ø·Ø§Ø¹" : "Explore Division"}</span>
                     <span className="text-base transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">
-                      →
+                      â†’
                     </span>
                   </div>
                 </div>

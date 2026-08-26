@@ -36,7 +36,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center">
           <div className="relative h-12 sm:h-13 md:h-14 w-44 sm:w-48 md:w-52 transition-transform duration-200 hover:scale-105">
             <Image
-              src="/images/blue_logo_tight.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/blue_logo_tight.png`}
               alt="ICL Logo"
               fill
               className={`object-contain object-left rtl:object-right transition-all duration-300 ${
@@ -61,7 +61,7 @@ export function Navbar() {
                 : "text-foreground/80 hover:text-foreground"
             }`}
           >
-            {locale === "ar" ? "الرئيسية" : "Home"}
+            {locale === "ar" ? "Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©" : "Home"}
           </Link>
 
           {/* Services Dropdown */}
@@ -79,7 +79,7 @@ export function Navbar() {
               }`}
               aria-expanded={servicesDropdown}
             >
-              <span>{locale === "ar" ? "خدماتنا" : "Our Services"}</span>
+              <span>{locale === "ar" ? "Ø®Ø¯Ù…Ø§ØªÙ†Ø§" : "Our Services"}</span>
               <svg
                 className={`w-4 h-4 transition-transform duration-200 ${
                   servicesDropdown ? "rotate-180" : ""
@@ -122,7 +122,7 @@ export function Navbar() {
                 : "text-foreground/80 hover:text-foreground"
             }`}
           >
-            {locale === "ar" ? "من نحن" : "About Us"}
+            {locale === "ar" ? "Ù…Ù† Ù†Ø­Ù†" : "About Us"}
           </Link>
 
           <Link
@@ -137,7 +137,7 @@ export function Navbar() {
                 : "text-foreground/80 hover:text-foreground"
             }`}
           >
-            {locale === "ar" ? "تواصل معنا" : "Contact Us"}
+            {locale === "ar" ? "ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§" : "Contact Us"}
           </Link>
 
           {/* Theme Gold Language Switcher Button */}
@@ -191,12 +191,12 @@ export function Navbar() {
               className="text-base font-semibold text-foreground hover:text-accent"
               onClick={() => setOpen(false)}
             >
-              {locale === "ar" ? "الرئيسية" : "Home"}
+              {locale === "ar" ? "Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©" : "Home"}
             </Link>
 
             <div className="border-t border-border/60 pt-3">
               <p className="text-xs font-bold uppercase tracking-wider text-accent mb-2">
-                {locale === "ar" ? "خدماتنا" : "Our Services"}
+                {locale === "ar" ? "Ø®Ø¯Ù…Ø§ØªÙ†Ø§" : "Our Services"}
               </p>
               <div className="flex flex-col gap-2.5 ps-3">
                 {serviceLinks.map((s) => (
@@ -217,7 +217,7 @@ export function Navbar() {
               className="text-base font-semibold text-foreground hover:text-accent border-t border-border/60 pt-3"
               onClick={() => setOpen(false)}
             >
-              {locale === "ar" ? "من نحن" : "About Us"}
+              {locale === "ar" ? "Ù…Ù† Ù†Ø­Ù†" : "About Us"}
             </Link>
 
             <Link
@@ -225,7 +225,7 @@ export function Navbar() {
               className="text-base font-semibold text-foreground hover:text-accent border-t border-border/60 pt-3"
               onClick={() => setOpen(false)}
             >
-              {locale === "ar" ? "تواصل معنا" : "Contact Us"}
+              {locale === "ar" ? "ØªÙˆØ§ØµÙ„ Ù…Ø¹Ù†Ø§" : "Contact Us"}
             </Link>
           </div>
         </div>

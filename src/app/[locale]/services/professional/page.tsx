@@ -32,7 +32,7 @@ export default async function ProfessionalServicesPage({
         <div className="overflow-hidden rounded-2xl bg-[#142d4c] text-white shadow-xl grid md:grid-cols-12">
           <div className="relative h-64 md:h-auto md:col-span-5 hidden md:block">
             <Image
-              src="/images/Development.webp"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Development.webp`}
               alt="Background Checks"
               fill
               className="object-cover opacity-80 mix-blend-luminosity"
@@ -99,7 +99,7 @@ export default async function ProfessionalServicesPage({
           </div>
           <div className="relative h-64 md:h-auto md:col-span-5 hidden md:block">
             <Image
-              src="/images/Asset-23.webp"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/Asset-23.webp`}
               alt="Staff Recruitment"
               fill
               className="object-cover"
